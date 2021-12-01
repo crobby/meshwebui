@@ -1,0 +1,23 @@
+{
+  "name": "meshwebui",
+  "version": "1.0.0",
+  "description": "sample webui",
+  "main": "app.json",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crobby/meshwebui.git"
+  },
+  "author": "Chad Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crobby/meshwebui/issues"
+  },
+  "homepage": "https://github.com/crobby/meshwebui#readme"
+}
