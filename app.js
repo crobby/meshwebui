@@ -47,8 +47,7 @@ var getPrediction = function(postdata) {
       console.log('Response: ');
       console.log(chunks);
       responseData = JSON.parse(Buffer.concat(chunks));
-      console.log(responseData);
-  
+      console.log("after JSOn.parse:", responseData);  
     });
   })
   
