@@ -11,6 +11,7 @@ app.get('/', (req, res) => {
 app.post('/', urlencodedParser, (req, res) => {
     console.log('Got body:', req.body);
     var results = getPrediction(req.body);
+    console.log('going to send results:', results);
     res.json(results).end();
     //res.status(200).send(results);
 });
